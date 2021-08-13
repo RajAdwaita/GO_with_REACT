@@ -16,8 +16,10 @@ import "./App.css";
 // import FunctionClick from "./Component/FunctionClick";
 // import Stylesheets from "./Component/Stylesheets";
 import './Component/appStyles.css'
+import ParentComp from "./Component/ParentComp";
+// import PureComp from "./Component/PureComp";
 // import FragmentDemo from "./Component/FragmentDemo";
-import Table from "./Component/Table";
+// import Table from "./Component/Table";
 // import LifecycleA from "./LifecycleA";
 // import styles from './Component/appStyles.module.css'
 // import Form from " ./Form";
@@ -27,7 +29,9 @@ class App extends Component {
       <div className="App">
         {/* <LifecycleA /> */}
         {/* <Form /> */}
-        <Table />
+        {/* <Table /> */}
+        {/* <PureComp /> */}
+        <ParentComp />
         {/* <FragmentDemo /> */}
         {/* <h1 className="error">ERROR</h1> */}
         {/* <h1 className={styles.success}>SUCCESS</h1> */}
