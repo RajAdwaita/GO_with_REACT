@@ -16,7 +16,10 @@ import "./App.css";
 // import FunctionClick from "./Component/FunctionClick";
 // import Stylesheets from "./Component/Stylesheets";
 import './Component/appStyles.css'
-import ParentComp from "./Component/ParentComp";
+import ClickCounter from "./Component/ClickCounter";
+// import ParentComp from "./Component/ParentComp";
+import Input from "./Input";
+// import RefsDemo from "./RefsDemo";
 // import PureComp from "./Component/PureComp";
 // import FragmentDemo from "./Component/FragmentDemo";
 // import Table from "./Component/Table";
@@ -27,11 +30,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ClickCounter />
+        {/* <Input /> */}
         {/* <LifecycleA /> */}
         {/* <Form /> */}
         {/* <Table /> */}
         {/* <PureComp /> */}
-        <ParentComp />
+        {/* <ParentComp /> */}
+        {/* <RefsDemo /> */}
         {/* <FragmentDemo /> */}
         {/* <h1 className="error">ERROR</h1> */}
         {/* <h1 className={styles.success}>SUCCESS</h1> */}
@@ -57,6 +63,8 @@ class App extends Component {
 
         <Welcome name="Adwaita" heroname="Knight"/>
         <Message /> */}
+
+
       </div>
     );
   }

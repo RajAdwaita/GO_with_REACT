@@ -1,4 +1,4 @@
-import React, { Component, PureComponent } from 'react'
+ import React, { Component, PureComponent } from 'react'
 import MemoComp from './MemoComp'
 // import PureComp from './PureComp'
 // import RegComp from './RegComp'
